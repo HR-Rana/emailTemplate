@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blackshopldt Order has been Received</title>
+    <link rel="shortcut icon" href="https://blackshopltd.com/assets/images/logo/Brand.png" type="image/x-icon">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        } */
+        body{
+            background-color: rgb(211, 211, 211);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        span{
+            font-weight: 600;
+        }
+        p::first-letter{
+            text-transform: capitalize;
+        }
+        .logo{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img{
+            width: 200px;
+            margin: 0 auto;
+            object-fit: contain;
+        }
+        main{
+            width: 80%;
+            margin: 0 auto;
+            background-color: rgb(252, 252, 252);
+        }
+      
+        h1{
+            height: 100%;
+            padding: 25px 50px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(58, 58, 58);
+            color: rgb(252, 240, 240);
+        }
+        h2{
+            text-align: center;
+            padding-bottom: 10px;
+            margin: 50px 0;
+            border-bottom: 2px solid rgb(213, 213, 213);
+        }
+        h3{
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 2px solid rgb(213, 213, 213);
+        }
+        .email-body{
+            padding: 0px 30px;
+        }
+
+        table{
+            min-width: 100%;
+            border: none;
+        }
+        table th, td{
+            padding: 10px;
+            margin: 2px;
+         
+        }
+        .billing-details-box{
+            padding: 25px 50px;
+            border: 1px solid #5a5a5a;
+            margin: 40px 0;
+            text-align: center;
+        }
+        .social-icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px 10px;
+            margin: 25px 0;
+            padding-bottom: 15px;
+            border-bottom: 2px solid gray;
+        }
+        .social-icons li{
+            list-style: none;
+            font-size: 30px;
+        }
+        .social-icons li svg{
+            width: 50px;
+            font-size: 35px;
+        }
+    
+
+        footer{
+            padding: 40px 50px;
+            background-color: rgb(49, 49, 49);
+            color: beige;
+        }
+        footer a{ 
+            color: beige;
+            max-width: fit-content;
+        }
+        footer p{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 8px;
+        }
+        footer a{
+            text-decoration: none;
+            margin: 0px 10px;
+        }
+        footer .dev a{
+            text-decoration: underline;
+        }
+
+
+    @media (max-width:768px) {
+        main{
+                width: 90%;
+                margin: 0 auto;
+                
+        }
+            .logo img{
+            width: 180px;
+        }
+            h1{
+                font-size: 24px;
+        }
+            h2{
+                font-size: 18px;
+         }
+            h3{
+                font-size: 18px;
+        }
+            footer p{
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 12px;
+                line-height: 24px;
+        }
+            .social-icons li svg{
+            width:40px;
+            font-size: 25px;
+        }
+       }  
+       
+    @media (max-width:540px) {
+        main{
+                width: 100%;
+                margin: 0 auto;
+                
+        }
+            .logo img{
+            width: 150px;
+        }
+            h1{
+                font-size: 22px;
+        }
+            h2{
+                font-size: 16px;
+         }
+            h3{
+                font-size: 16px;
+        }
+            footer p{
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 10px;
+                line-height: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        
+        article{
+            font-size: 14px;
+        }
+        span{
+            font-size: 13px;
+        }
+        thead th{
+            font-size: 12px;
+            
+        }
+            .social-icons li svg{
+            width:40px;
+            font-size: 20px;
+        }
+       }
+
+       
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="logo">
+            <a href="https://blackshopltd.com/index.php"><img src="https://blackshopltd.com/assets/images/logo/Brand.png" alt="logo"></a>
+        </div>
+        <h1></h1>
+        <div class="email-body">
+            <div class="heading-text">
+                <p>Hi <span>Apon</span>,</p>
+                <article>
+                    আপনার <span>অর্ডার নাম্বার <span style="color: rgb(107, 101, 101);">#526597 </span> বাতিল</span> করা হয়েছে।
+                </article>
+                <p><span>কি কি কারণে অর্ডার বাতিল হয় ?</span></p>
+                <ul>
+                    <li> চেকআউট করে পেমেন্ট না করলে। </li>
+                    <li> পেমেন্ট সন্দেহভাজন মনে হলে। </li>
+                    <li>  কোনো কারণে টাকা রিফান্ড দেওয়া হলে। </li>
+                </ul>
+            </div>  
+            <div class="email-container-box">    
+                 <p><b>সঠিকভাবে অর্ডার করতে নিচের লিংকের ভিডিওটি সম্পূর্ণ দেখুনঃ</b></p>
+            <p><a href="https://youtu.be/vKivrhLXFvA" target="_blank">https://youtu.be/vKivrhLXFvA</a></p><br>
+        </div>
+        </div>
+        
+
+        <footer>
+            <div class="social-icons">
+                <li><a href="https://www.facebook.com/blackshoplimited"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://wa.me/message/LUQBH2QYTNDBF1"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="https://t.me/blackshoplimited"><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a href="https://youtube.com/@blackshoplimited"><i class="fa-brands fa-youtube"></i></a></li>
+            </div><br>
+            <p>&copy;copyright 2024 | <a href="https://blackshopltd.com/"> Black-shop LTD.</a> | All right reserved.</p>
+            <!-- <p class="dev"><a href="https://www.facebook.com/HRRana2000/" target="_blank">Developer-info</a></p> -->
+        </footer>
+    </main>
+    
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- fontawesome -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
